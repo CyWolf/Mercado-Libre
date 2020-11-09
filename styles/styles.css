@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    text-decoration: none;
+    color: #333333
+}
+
+
+/* color navbar mercadolibre #FFF159 */
+
+.nav {
+    height: 100px;
+    padding: 0px 90px;
+    background-color: #FFF159;
+}
+
+
+/* Parte superior del navbar */
+
+.nav-div-top {
+    height: 60%;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+}
+
+.search-bar {
+    height: 100%;
+    width: 55%;
+}
+
+input {
+    height: 40px;
+    width: 90%;
+}
+
+.icon-link {
+    height: 100%;
+    width: 30%;
+}
+
+/* Parte inferior del navbar */
+
+.nav-div-bottom {
+    height: 40%;
+    display: flex;
+}
+
+.categories {
+    height: 100%;
+    width: 15%;
+}
+.main-menu {
+    height: 100%;
+    width: 55%;
+}
+.main-menu p {
+    color: #857F4D;
+}
+.nav-profile {
+    height: 100%;
+    width: 30%;
+}
+
+/* Carousel and banner */
+
+.section1 {
+    height: 85vh;;
+}
+.carousel {
+    height: 60%;
+    background-image: url(https://placeimg.com/640/480/tech);
+}
+.car-chev{
+    height: 80px;
+    width: 40px;
+    background-color: white;
+}
+.chev-size {
+    color: turquoise;
+    font-size: 200%;
+}
+.div-banner {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    height: 80%;
+    width: 90%;
+    background-image: url(https://placeimg.com/640/480/people);
+}
+
+/* Descubre and two banners */
+
+.section2 {
+    margin-top: 35px !important; 
+    width: 90%;
+}
+
+.div-double-banner {
+    height: 280px;
+}
+.div-left {
+    height: 100%;
+    width: 49%;
+}
+.div-right {
+    height: 100%;
+    width: 49%;
+}
+.sub-div-left {
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+.sub-div-right {
+    height: 100%;
+    width: 40%;
+    background-image: url(https://placeimg.com/640/480/arch);
+}
+.sub-div-right1 {
+    height: 100%;
+    width: 40%;
+    background-image: url(https://placeimg.com/640/480/arch);
+}
+.sub-text-div {
+    padding: 30px;
+}
+
+/* 4 link images */
+
+.section3 {
+    margin-top: 35px !important;
+    width: 90%;
+}
+.div-4-img {
+    height: 280px;
+}
+.firstbox {
+    height: 340px;
+    width: 284px;
+    background-color: white;
+}
+.firstbox-image {
+    height: 95px;
+    background-image: url(https://placeimg.com/640/480/tech);
+}
+.firstbox-mini-image {
+    height: 80px;
+    width: 80px;
+    bottom: 40px;
+    background-color: blue;
+}
+.div-3-mini-images {
+    height: 70px;
+    margin: 0px 30px;
+}
+.firstminibox {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+}
+/* Clases comunes */
+
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.d-inline {
+    display: inline;
+}
+.d-block {
+    display: block;
+}
+.align-center {
+    align-items: center;
+}
+.align-left {
+    align-items: left;
+}
+.d-flex {
+    display: flex;
+}
+.justify-flex-end {
+    justify-content: flex-end;
+}
+.icon-size {
+    font-size: 30px;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-bt {
+    justify-content: space-between;
+}
+.margin-auto {
+    margin: auto;
+}
+nav p {
+    font-size: 13px;
+}
+h4 {
+    font-size: 16px;
+}
+.p-relative {
+    position: relative
+}
+.text-center {
+    text-align: center;
+}
